@@ -24,3 +24,15 @@ usar _em_ (emphatize) para cursivas
 es importante agregar el atributo "alt" y "desc" a cualquier imagenes (buenas practicas SEO)
 
 los hipervinculos, a hacen referencia a "anchor" y si no se tiene un URL para especificar se utiliza el default "#"
+
+Los ID de elementos HTML solo se pueden usar una vez, para reutilizar alguno se debe utilizar clases en su lugar.
+
+la prioridad de HTML en cuanto a aplicacion de estilos es:
+element > class > id > inline
+
+CSS
+Selectors
+
+\# -> ID
+
+. -> class
