@@ -41,10 +41,6 @@ p {
   line-height: 1.5;
 }
 
-li {
-  font-size: 20px;
-}
-
 /* footer p {
   font-size: 16px;
 } */
@@ -71,7 +67,12 @@ li {
 }
 
 .main-header {
+  border-top: 10px solid #1098ad;
   background-color: #f7f7f7;
+  /* padding: 200px; */
+  /* padding-left: 40px; */
+  /* padding-right: 40px; */
+  padding: 20px 40px;
 }
 
 aside {
@@ -79,23 +80,14 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
-
-/* practiciing with pseudo classes */
-/* li:first-child {
-  font-weight: bold;
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 li:last-child {
-  font-weight: bold;
+  margin-bottom: 0;
 }
-
-li:nth-child(odd) {
-  background-color: aqua;
-}
-
-li:nth-child(even) {
-  background-color: aquamarine;
-} */
 
 li:hover {
   font-weight: bolder;
@@ -123,5 +115,22 @@ a:active {
 }
 
 nav {
-  font-size: 18px9;
+  font-size: 18px;
 }
+
+/* practiciing with pseudo classes */
+/* li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-weight: bold;
+}
+
+li:nth-child(odd) {
+  background-color: aqua;
+}
+
+li:nth-child(even) {
+  background-color: aquamarine;
+} */
