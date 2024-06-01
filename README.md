@@ -84,3 +84,31 @@ with CSS: `display: inline`
 ## Absolute and relative position
 
 absolute elements must be contained whiting a relative element and must have top, bottom, right and left properties.
+
+## pseudo elements
+
+Pseudo elements are similar to pseudo classes but this works for elements instead, IE: `h1::first-letter`
+
+### adyacent Silbing elements
+
+adyacent silbing element selector stands to select the after `h3+p::first-line` and before pseudo element `h3 - p::first-line`
+example:
+
+```
+h2 {
+background-color> orange;
+position: relative;
+}
+
+h2::after {
+content: "TOP";
+background-color: "yellow";
+font-size: 16px;
+font-weight:bold;
+display:inline-block;
+padding: 5px 10px;
+position: absolute;
+top: 15px;
+right: -25px;
+}
+```
