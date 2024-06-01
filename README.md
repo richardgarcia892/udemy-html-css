@@ -80,3 +80,7 @@ _paddings and margings_ are applied _only horizontally_ (left and right)
 default elements: `a, img, strong, em, button`, etc.
 
 with CSS: `display: inline`
+
+## Absolute and relative position
+
+absolute elements must be contained whiting a relative element and must have top, bottom, right and left properties.
