@@ -36,3 +36,47 @@ Selectors
 \# -> ID
 
 . -> class
+
+## Margins and paddings:
+
+vertical margings collapse to the size of the greater one
+Collapsing margins:The top and bottom margins of blocks are sometimes combined (collapsed) into a single margin whose size is the largest of the individual margins (or just one of them, if they are equal), a behavior known as margin collapsing. Note that the margins of floating and absolutely positioned elements never collapse.
+
+margins are not inherited
+
+space inside elements: Padding (IE: colored backgrounds and gat between text and borders)
+space outside elements: Marging (IE: separation)
+
+To any element that has an exact height defined, the real height of the element is:
+height(80px) + padding-top(20px) + padding-botton(20px) total: 120px
+
+margin doesnt work on certain small elements (IE: anchors)
+
+## block level elements
+
+Elements are Formatted visually as _blocks_
+
+Elements occupy _100% of parents element's width_, no matter the content
+
+elements are _stacked vertically_ by default one after another
+
+the box-model _applies as showed_ earlier
+
+default elements: `body, main, header, footer, section, nav, aside, div, h1-h6, p, ul, ol, li`, etc
+
+with CSS:
+`display: block`
+
+## Inline elements
+
+occupie only the space _neccesary for its content_
+
+causes _no line-breaks_ after or before the element
+
+box model applies in different way: _heigths and widths do not apply_
+
+_paddings and margings_ are applied _only horizontally_ (left and right)
+
+default elements: `a, img, strong, em, button`, etc.
+
+with CSS: `display: inline`
