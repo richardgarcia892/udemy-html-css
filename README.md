@@ -112,3 +112,9 @@ top: 15px;
 right: -25px;
 }
 ```
+
+## Layouts, Floats, Flexbox and Grids
+
+### FLOATS
+
+deprecated CSS Flow, do not use
