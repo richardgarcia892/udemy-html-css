@@ -118,3 +118,15 @@ right: -25px;
 ### FLOATS
 
 deprecated CSS Flow, do not use
+
+## FLEX
+
+most modern way to write CSS
+
+Items are automatically distributed along the FLEX container
+
+Two axis, main axis (default one, left to right) and cross axis (top to bottom)
+
+good practice: include all the configuration for layaout inside the flex container
+
+use order to set order of items appearing on the flex container, default is 0, lower number (less than 0) goes first, higher items (more than 0) shows last
