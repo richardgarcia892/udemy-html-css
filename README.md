@@ -119,6 +119,12 @@ right: -25px;
 
 deprecated CSS Flow, do not use
 
+## FLEX AND GRID
+
+Flex and grid are meant to work together or be used withing their own use cases based on the developer design
+
+both are modern and captable of great results
+
 ## FLEX
 
 Items are automatically distributed along the FLEX container
