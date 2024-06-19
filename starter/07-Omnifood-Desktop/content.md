@@ -132,11 +132,9 @@ Privacy & terms
 - Navigation
 - Hero
 - Featured in
-- Features
 - How it Works
 - Meals (and list of diets)
-- gallery
-- Testimonials
-- Pricing
-- Call to action
+- Testimonials + Gallery
+- Pricing + Features
+- CTA - Call to action
 - Footer

@@ -140,3 +140,7 @@ use order to set order of items appearing on the flex container, default is 0, l
 similar to flex box, this case developer define rows amount, content acomodate to have as many columns needed to show all content within the grid container
 
 grid items fill entire row size
+
+## Site personality
+
+Each site personalities have some characteristics that make the user feel different emotion, the goal here is to understand the business itself to pick a matching personality for the site, this is a combination from both, site and business goals.
