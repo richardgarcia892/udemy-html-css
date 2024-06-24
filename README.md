@@ -144,3 +144,11 @@ grid items fill entire row size
 ## Site personality
 
 Each site personalities have some characteristics that make the user feel different emotion, the goal here is to understand the business itself to pick a matching personality for the site, this is a combination from both, site and business goals.
+
+## Units
+
+- px
+- %: percentage of screen
+- rem: Root Element Size, default 60px, rem is used to keep relation between components and font size as relative relation
+
+When using max-width it is inherited by child components of the container.
