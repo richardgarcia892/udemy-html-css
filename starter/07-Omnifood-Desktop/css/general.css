@@ -152,7 +152,7 @@ body {
   text-decoration: none;
 
   /* Transitions are meant to be set on the original state only */
-  transition: background-color 500ms;
+  transition: all 500ms;
 }
 
 .btn--full:link,
@@ -179,6 +179,33 @@ body {
   background-color: #fdf2e9;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+}
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 6.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+strong {
+  font-weight: 500;
 }
