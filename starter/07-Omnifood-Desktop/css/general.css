@@ -88,8 +88,16 @@ body {
 
 .grid {
   display: grid;
-  row-gap: 9.6rem;
   column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 
 .grid--2-cols {
@@ -101,7 +109,9 @@ body {
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
 }
-
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
 .grid--center-v {
   align-items: center;
 }
@@ -140,6 +150,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   background-color: #e67e22;
@@ -150,7 +161,10 @@ body {
   border-radius: 9px;
   font-weight: 600;
   text-decoration: none;
-
+  /* only applies to .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
   /* Transitions are meant to be set on the original state only */
   transition: all 500ms;
 }
@@ -179,6 +193,19 @@ body {
   background-color: #fdf2e9;
 }
 
+.btn--form {
+  background-color: #45260e;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+  transition: all 0.5s;
+}
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -194,6 +221,9 @@ body {
   color: #cf711f;
   border-bottom: 1px solid transparent;
 }
+
+/* HELPER CLASSESS */
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
@@ -206,6 +236,33 @@ body {
   text-align: center;
 }
 
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
 strong {
   font-weight: 500;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 6px; */
+  box-shadow: 0 0 0 0.8rem rgb(230, 125, 34, 0.5);
 }
